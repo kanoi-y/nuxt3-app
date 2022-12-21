@@ -7,7 +7,4 @@
 const enableCustomLayout = () => {
   setPageLayout("custom");
 };
-definePageMeta({
-  layout: false,
-});
 </script>
