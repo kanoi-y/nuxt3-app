@@ -1,0 +1,15 @@
+<script setup>
+const router = useRoute();
+useHead({
+  title: `Nuxt 3 - ${router.params.id}`,
+  meta: [
+    {
+      name: 'description',
+      content: `User Id: ${router.params.id}`,
+    },
+  ],
+});
+</script>
+<template>
+  <p>ユーザID: {{ $route.params.id }}</p>
+</template>
