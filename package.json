@@ -10,5 +10,9 @@
   "devDependencies": {
     "@nuxtjs/tailwindcss": "^6.2.0",
     "nuxt": "3.0.0"
+  },
+  "dependencies": {
+    "@prisma/client": "^4.8.0",
+    "prisma": "^4.8.0"
   }
 }
